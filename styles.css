@@ -273,7 +273,6 @@ main {
   padding: 16px;
   position: relative;
   overflow: hidden;
-  background: url("/images/utd-map.png") center/cover no-repeat;
 }
 
 .map-pin {
