@@ -56,14 +56,12 @@ body::before {
   inset: 0;
   background-image: url("StudyScape/images/bg.svg");
   background-repeat: repeat;
-  background-size: 320px;   /* adjust size here */
-  opacity: 0.20;            /* <-- make it visible but soft */
+  background-size: 320px;   
+  opacity: 0.20;            
   z-index: -1;
   pointer-events: none;
 }
 
-
-/* Fluid type scale for headings */
 h1 {
   font-family: "Rancho", cursive;
   font-weight: 400;
@@ -99,7 +97,6 @@ a:hover {
   text-decoration: underline;
 }
 
-/* General layout wrapper for main content */
 main {
   max-width: 1150px;
   margin: 0 auto 48px auto;
@@ -157,9 +154,6 @@ main {
   color: #c67d4a;
 }
 
-/* =========================
-   HEADER + LOGO + NAV
-   ========================= */
 
 .site-header {
   background-color: #fff0e2;
@@ -176,11 +170,10 @@ main {
   gap: 2px;
 }
 
-/* Logo text (StudyScape) */
 .site-title,
 .logo {
   font-family: "Londrina Shadow", sans-serif;
-  font-size: 3.4rem;       /* logo size – make 4rem if you want HUGE */
+  font-size: 3.4rem;       
   letter-spacing: 3px;
   margin: 0;
   padding: 0;
@@ -194,7 +187,6 @@ main {
   color: #7d6353;
 }
 
-/* Navigation */
 .main-nav {
   display: flex;
   gap: 10px;
@@ -220,10 +212,6 @@ main {
   color: #fff7f0;
 }
 
-/* =========================
-   HERO SECTION (HOME)
-   ========================= */
-
 .hero {
   margin: 60px 0 30px 0;
   display: grid;
@@ -232,7 +220,6 @@ main {
   align-items: stretch;
 }
 
-/* wrap hero text card for nicer spacing */
 .hero-copy {
   background: linear-gradient(135deg, #fff7f0, #ffecde);
   border-radius: 24px;
@@ -246,7 +233,6 @@ main {
   max-width: 560px;
 }
 
-/* Map card */
 .hero-map {
   padding: 0;
   background: none;
@@ -279,7 +265,7 @@ main {
   min-height: 260px;
   border-radius: 24px;
   overflow: hidden;
-  background: url("images/utd-map.png") center/cover no-repeat;
+  background: url("StudyScape/images/utd-map.png") center/cover no-repeat;
 }
 
 .map-pin {
