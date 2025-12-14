@@ -265,7 +265,7 @@ main {
   min-height: 260px;
   border-radius: 24px;
   overflow: hidden;
-  background: center/cover no-repeat;
+  background: url("StudyScape/images/utd-map.png") center/cover no-repeat;
 }
 
 .map-pin {
