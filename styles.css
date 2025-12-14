@@ -248,6 +248,14 @@ main {
   position: relative;
   overflow: hidden;
 }
+.map-placeholder {
+  min-height: 260px;
+  background-image: url("StudyScape/images/utd-map.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 
 .map-pin {
   position: absolute;
